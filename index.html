@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home</title>
+	<meta initial-scale=1.0, width=device-width charset="utf-8">
+</head>
+<style>
+	*{
+		font-family: sans-serif;
+	}
+	a {
+		all: unset;
+		cursor: pointer;
+	}
+
+	a:hover{
+		color: orange;
+	}
+	.item {
+		display: grid;
+		grid-template-columns: 2fr 4fr;
+		border-top: 1px solid black;
+	}
+
+	.item img.hidden {
+		/* position: absolute; */
+		width: 30vw;
+		top: 1em;
+		left: 1em;
+		display: none;
+	}
+
+	.item:hover img.hidden {
+		display: block;
+	}
+
+	h1 {
+		text-transform: uppercase;
+		font-weight: 100;
+		margin: 1.5em 0 1em 0;
+	}
+</style>
+
+<body>
+	<div class="mine">
+		 <h1>Websites I've made</h1>
+	</div>
+	<div class="architecture-websites">
+		 <h1>Architecture websites examples</h1>
+	</div>
+</body>
+
+<script type="module" src="./script.js"></script>
+
+</html>
