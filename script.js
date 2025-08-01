@@ -20,7 +20,7 @@ function data_init(channel){
 
 function block(block) {
 	return  `
-<a href="${block.source.url}">
+<a target="_blank" href="${block.source.url}">
 <div class="item">
 	<p>${block.title}</p>
 	<p>${block.source.url}</p>
